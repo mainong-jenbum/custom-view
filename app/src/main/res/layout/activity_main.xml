@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -13,23 +12,22 @@
         android:padding="16dp">
 
         <!-- Buttons -->
-
-        <ui.mainong.custom.ButtonRobotoMedium
+        <ui.mainong.custom.Button.ButtonRobotoMedium
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Roboto Medium"/>
         
-        <ui.mainong.custom.ButtonRobotoRegular
+        <ui.mainong.custom.Button.ButtonRobotoRegular
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Roboto Regular"/>
 
-        <ui.mainong.custom.ButtonSFProDisplayMedium
+        <ui.mainong.custom.Button.ButtonSFProDisplayMedium
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="SF Pro Display"/>
 
-        <ui.mainong.custom.ButtonSFUiRegular
+        <ui.mainong.custom.Button.ButtonSFUiRegular
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="SF UI Regular"/>
@@ -42,27 +40,27 @@
             android:layout_margin="16dp"
             android:background="#DDDDDD"/>
         
-        <ui.mainong.custom.EditTextRobotoBold
+        <ui.mainong.custom.EditText.EditTextRobotoBold
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Roboto Bold"/>
 
-        <ui.mainong.custom.EditTextRobotoItalic
+        <ui.mainong.custom.EditText.EditTextRobotoItalic
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Roboto Italic"/>
 
-        <ui.mainong.custom.EditTextRobotoLight
+        <ui.mainong.custom.EditText.EditTextRobotoLight
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Roboto Light"/>
 
-        <ui.mainong.custom.EditTextRobotoMedium
+        <ui.mainong.custom.EditText.EditTextRobotoMedium
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Roboto Medium"/>
 
-        <ui.mainong.custom.EditTextRobotoRegular
+        <ui.mainong.custom.EditText.EditTextRobotoRegular
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Roboto Regular"/>
@@ -82,7 +80,7 @@
             android:layout_marginTop="8dp"
             style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
 
-            <ui.mainong.custom.TextInputEditTextRegular
+            <ui.mainong.custom.TextInputEditText.TextInputEditTextRegular
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content" />
 
@@ -95,7 +93,7 @@
             android:layout_marginTop="8dp"
             style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
 
-            <ui.mainong.custom.TextInputEditTextBold
+            <ui.mainong.custom.TextInputEditText.TextInputEditTextBold
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content" />
 
@@ -108,7 +106,7 @@
             android:layout_marginTop="8dp"
             style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
 
-            <ui.mainong.custom.TextInputEditTextLight
+            <ui.mainong.custom.TextInputEditText.TextInputEditTextLight
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content" />
 
@@ -121,7 +119,7 @@
             android:layout_marginTop="8dp"
             style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
 
-            <ui.mainong.custom.TextInputEditTextMedium
+            <ui.mainong.custom.TextInputEditText.TextInputEditTextMedium
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content" />
 
@@ -134,61 +132,61 @@
             android:layout_margin="16dp"
             android:background="#DDDDDD"/>
         
-        <ui.mainong.custom.TextViewRobotoBlack
+        <ui.mainong.custom.TextView.TextViewRobotoBlack
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="8dp"
             android:text="Roboto Black"/>
 
-        <ui.mainong.custom.TextViewRobotoBold
+        <ui.mainong.custom.TextView.TextViewRobotoBold
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="8dp"
             android:text="Roboto Bold"/>
 
-        <ui.mainong.custom.TextViewRobotoItalic
+        <ui.mainong.custom.TextView.TextViewRobotoItalic
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="8dp"
             android:text="Roboto Italics"/>
 
-        <ui.mainong.custom.TextViewRobotoLight
+        <ui.mainong.custom.TextView.TextViewRobotoLight
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="8dp"
             android:text="Roboto Light"/>
 
-        <ui.mainong.custom.TextViewRobotoMedium
+        <ui.mainong.custom.TextView.TextViewRobotoMedium
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="8dp"
             android:text="Roboto Medium"/>
 
-        <ui.mainong.custom.TextViewRobotoRegular
+        <ui.mainong.custom.TextView.TextViewRobotoRegular
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="8dp"
             android:text="Roboto Regular"/>
 
-        <ui.mainong.custom.TextViewHelveticaNeueBold
+        <ui.mainong.custom.TextView.TextViewHelveticaNeueBold
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="8dp"
             android:text="Helvetica Neue Bold"/>
 
-        <ui.mainong.custom.TextViewHelveticaNeueCondObl
+        <ui.mainong.custom.TextView.TextViewHelveticaNeueCondObl
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="8dp"
             android:text="Helvetica Neue Cond Obl"/>
 
-        <ui.mainong.custom.TextViewMontserratLight
+        <ui.mainong.custom.TextView.TextViewMontserratLight
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="8dp"
             android:text="Montserrat Light"/>
 
-        <ui.mainong.custom.TextViewMontserratRegular
+        <ui.mainong.custom.TextView.TextViewMontserratRegular
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="8dp"
