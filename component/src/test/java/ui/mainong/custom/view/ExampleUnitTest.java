@@ -1,4 +1,4 @@
-package ui.mainong.custom.text;
+package ui.mainong.custom.view;
 
 import org.junit.Test;
 
