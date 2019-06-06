@@ -3,7 +3,7 @@ apply plugin: 'com.android.application'
 android {
     compileSdkVersion 28
     defaultConfig {
-        applicationId "ui.mainong.custom.text"
+        applicationId "ui.mainong.custom"
         minSdkVersion 21
         targetSdkVersion 28
         versionCode 1
@@ -29,7 +29,7 @@ dependencies {
     testImplementation 'junit:junit:4.12'
     androidTestImplementation 'androidx.test:runner:1.2.0'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.2.0'
-    implementation project(path: ':text')
+    implementation project(path: ':component')
 
     // Google Material library
     implementation 'com.google.android.material:material:1.1.0-alpha07'

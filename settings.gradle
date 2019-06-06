@@ -1,1 +1,1 @@
-include ':app', ':text'
+include ':app', ':component'
